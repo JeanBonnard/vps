@@ -1,0 +1,154 @@
+@font-face {
+font-family:"GrandHotel-Regular";
+src:url('images/GrandHotel-Regular/GrandHotel-Regular.ttf')
+}
+body{
+background: url('images2/neige.gif');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.bandeau{
+width: 100%;
+height: 4.1em;
+border: solid;
+border-color: snow;
+color: snow;
+border-radius: 1em;
+text-align: center;
+font-size: 1.1em;
+font-family: arial;
+background: url('images2/folcon.png'), url('images2/folcon.png');
+  background-size: 4.1em, 4.1em;
+background-repeat: no-repeat;
+background-position-x: left,right;
+}
+
+.titre{
+
+}
+.pied{
+  width: 1350px;
+  height: 4.1em;
+  border: solid;
+  border-color: snow;
+  color: black;
+  border-radius: 1em;
+  text-align: center;
+  position: fixed;
+  bottom: -0;
+}
+.temp{
+  position: relative;
+  top: 0;
+  background: url('images2/temperature.png');
+  background-size: 7em;
+  width: 6em;
+  height: 6em;
+  border: transparent;
+  background-position-x: -7px;
+  left: -150px;
+}
+.hum{
+  position: relative;
+  top: 0;
+  width: 6em;
+  height: 6em;
+  border: transparent;
+  background: url('images2/humidite.png');
+  background-size: 7em;
+  background-position-x: -7px;
+  left: 130px;
+}
+.tempehumi{
+  position: relative;
+  top: 0;
+  width: 6.1em;
+  height: 6em;
+  border: transparent;
+  background: url('images2/temp&humi.png');
+  background-size: 7em;
+  background-position-x: -7px;
+}
+.css{
+
+  background-color: silver;
+  border-color: silver;
+  border-style: outset;
+  border-radius: 0.5em;
+  width: 8em;
+  height: 3em;
+  font-size: 1em;
+  font-weight: bold;
+  position: relative;
+  float: left;
+  top: 0.6em;
+}
+.css1{
+
+  background-color: silver;
+  border-color: silver;
+  border-style: outset;
+  border-radius: 0.5em;
+  width: 8em;
+  height: 3em;
+  font-size: 1em;
+  font-weight: bold;
+  position: relative;
+  float: right;
+  top: 0.6em;
+}
+.cercle{
+
+  position: relative;
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+  border-radius: 18%;
+  border: 5px solid snow;
+  margin-left: 5px;
+  margin-top: 120px;
+  text-align: center;
+  background-image: url('images2/temp.png');
+  background-repeat: no-repeat;
+  background-size: 27em;
+background-position-y: 0;
+background-position-x: -1em;
+  opacity: 0.9;
+}
+.cercle2{
+  position: relative;
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+  border-radius: 18%;
+  border: 5px solid snow;
+  margin-right: 5px;
+  margin-top: 120px;
+  text-align: center;
+  float: right;
+  background-image: url('images2/humi.png');
+  background-size: 27em;
+background-position-y: 0;
+background-position-x: -1em;
+  opacity: 0.9
+}
+.By{
+font-family: "GrandHotel-Regular";
+width: 365px;
+color: snow;
+position: absolute;
+top: 8px;
+font-size: 1.5em;
+text-align: center;
+transform: rotate(-17deg);
+left: 800px;
+}
+.tableau{
+  width: 403px;
+  height: 343px;
+  margin-left: 50px;
+  margin-top: 52px;
+  position: absolute;
+  border-radius: 34px;
+}

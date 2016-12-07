@@ -1,0 +1,531 @@
+@font-face {
+						font-family:"GrandHotel-Regular";
+						src:url('images/GrandHotel-Regular/GrandHotel-Regular.ttf')
+}
+@font-face {
+					font-family:"28 Days Later";
+					src:url('images/28_Days_Later/28_Days_Later.ttf')
+}
+@font-face {
+					font-family:"The Constellation of Heracles";
+					src:url('images/The Constellation of Heracles.ttf')
+}
+body{
+	margin: 10px;
+	padding: 5px;
+	width: auto;
+}
+.cercle {
+    display:block;
+  	height: 90px;
+  	width: 90px;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-left: 3px;
+    margin-top: 5px;
+    background-image: url('images/38.png');
+    background-size: 180%;
+    background-position: -37px -13px;
+   	float: left;
+}
+.metier{
+	font-size:35px;
+	text-decoration:none;
+	margin-left: 480px;
+	color: #454547;
+	margin-top:-127px;
+}
+.Du{
+	font-size:35px;
+	text-decoration:none;
+	margin-left: 630px;
+	margin-top: -35px;
+	color: #454547;
+	height: 50px;
+}
+.nom{
+	margin-top: -120px;
+	font-size: 50px;
+	color: #454547;
+	-moz-box-shadow: 10px 10px 5px 0px #AAD651;
+-webkit-box-shadow: 10px 10px 5px 0px #AAD651;
+-o-box-shadow: 10px 10px 5px 0px #AAD651;
+box-shadow: 10px 10px 5px 0px #AAD651;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#AAD651, Direction=134, Strength=5);
+margin-left: 5px;
+position: relative;
+}
+.email{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	top: 95px;
+	left: 116px;
+}
+.tel{
+	position: relative;
+	height: 30px;
+	width: 30px;
+	left: 64px;
+	top: -10px;
+}
+.gmail{
+	margin-left: 139px;
+	margin-top: 27px;
+}
+.num{
+	margin-left: 95px;
+	margin-top: -35px;
+}
+.maison{
+	position: relative;
+	height: 30px;
+	width: 30px;
+	left: 28px;
+	top: -10px;
+}
+.adresse{
+	margin-left: 58px;
+	margin-top: -36px;
+}
+.cp{
+	margin-left: 89px;
+	margin-top: -21px;
+}
+.info{
+	position: relative;
+	height: 23px;
+	width: 23px;
+	top: -16px;
+	left: 5px;
+}
+.permis{
+	margin-left:37px;
+	margin-top: -37px;
+}
+.photo{
+	position: absolute;
+	margin-left: 1200px;
+	margin-top: -202px;
+	height: 135px;
+	width: 110px
+}
+.ligne{
+	margin-right:8px;
+	width: 1310px;
+	border-color: #AAD651;
+	 border-style: solid;
+	 opacity: 0.9;
+	 color: #AAD651;
+	-moz-box-shadow: 10px 10px 5px 0px #454547;
+-webkit-box-shadow: 10px 10px 5px 0px #454547;
+-o-box-shadow: 10px 10px 5px 0px #454547;
+box-shadow: 10px 10px 5px 0px #454547;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#454547, Direction=134, Strength=5);
+}
+.competences{
+	text-align: center;
+	font-size: 60px;
+	color: #454547;
+	font-family: "28 days later";
+	font-style: normal;
+	margin-top: 36px;
+	width: 1330px;
+}
+.html{
+	position: absolute;
+	height:80px;
+	width: 170px;
+	margin-top: -40px;
+	margin-left: 20px;
+}
+.etoile{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 43px;
+	width: 130px
+}
+.vb{
+	position: absolute;
+	height: 102px;
+width: 116px;
+margin-left: 271px;
+margin-top: -45px;
+}
+.etoile2{
+	position: absolute;
+	width: 130px;
+	margin-top: 50px;
+	margin-left: 263px;
+}
+.linux{
+	position: absolute;
+	height: 100px;
+width: 126px;
+margin-left: 496px;
+margin-top: -51px;
+}
+.etoile3{
+	position: absolute;
+	width: 130px;
+	margin-top: 50px;
+	margin-left: 493px;
+}
+.gimp{
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	margin-left: 723px;
+	margin-top: -35px;
+}
+.etoile4{
+	position: absolute;
+	width: 130px;
+	margin-left: 693px;
+	margin-top:50px;
+}
+.terminal{
+	position: absolute;
+	height: 80px;
+	width: 104px;
+	margin-left: 915px;
+	margin-top: -30px;
+}
+.etoile5{
+	position: absolute;
+	width: 130px;
+	margin-left: 903px;
+	margin-top: 50px;
+}
+.audacity{
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	margin-left:1153px;
+	margin-top: -30px;
+}
+.etoile6{
+	width: 130px;
+	margin-left: 1133px;
+	margin-top: 50px;
+}
+.ligne2{
+	margin-right:8px;
+	margin-top: 20px;
+	border-color: #AAD651;
+	 border-style: solid;
+	 opacity: 0.9;
+	 width: 1310px;
+	 color: #AAD651;
+	-moz-box-shadow: 10px 10px 5px 0px #454547;
+-webkit-box-shadow: 10px 10px 5px 0px #454547;
+-o-box-shadow: 10px 10px 5px 0px #454547;
+box-shadow: 10px 10px 5px 0px #454547;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#454547, Direction=134, Strength=5);
+}
+.experiences{
+	font-family: "28 days later";
+	text-align: center;
+	font-size: 60px;
+	color: #454547;
+	margin-top: 17px;
+	width: 1330px;
+}
+.expe{
+	height: 934px;
+width: 1330px;
+}
+.fleche{
+	position: relative;
+	top: -283px;
+	left: -94px;
+	height: 100px;
+}
+.flechinv{
+	position: relative;
+height: 59px;
+top: 56px;
+left: -206px;
+}
+.fleche2{
+	position: relative;
+height: 100px;
+right: -946px;
+top: -601px;
+}
+.fleche3{
+	height: 151px;
+position: relative;
+top: -185px;
+right: -729px;
+}
+.fleche4{
+	height: 109px;
+position: relative;
+left: -182px;
+top: -143px;
+}
+.post3{
+	position: relative;
+	left: -140px;
+}
+.post3bis{
+	position: relative;
+left: 506px;
+top: -178px;
+}
+.post4{
+	position: relative;
+	left: -247px;
+	top: 6px;
+}
+.post5{
+	position: relative;
+right: -870px;
+top: -333px;
+}
+.post6{
+	position: relative;
+right: -295px;
+top: 50px;
+}
+.savoir_faire{
+	height: 350px;
+position: relative;
+top: -240px;
+left: -231px;
+transform: rotate(-7deg);
+}
+.ligne3{
+	margin-right:8px;
+	margin-top: -44px;
+	border-color: #AAD651;
+	 border-style: solid;
+	 opacity: 0.9;
+	 width: 1310px;
+	 color: #AAD651;
+	-moz-box-shadow: 10px 10px 5px 0px #454547;
+-webkit-box-shadow: 10px 10px 5px 0px #454547;
+-o-box-shadow: 10px 10px 5px 0px #454547;
+box-shadow: 10px 10px 5px 0px #454547;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#454547, Direction=134, Strength=5);
+}
+.formations{
+	font-family: "28 days later";
+	text-align: center;
+	font-size: 60px;
+	color: #454547;
+	margin-top: 17px;
+	width: 1330px;
+}
+.forma{
+	width: 1330px;
+	height: 330px;
+}
+.fleche_chrono{
+	position: relative;
+width: 95%;
+left: 17px;
+top: -90px;
+height: 40%;
+display: inline;
+}
+.dta{
+	position: relative;
+top: -75px;
+display: inline;
+float: left;
+left: -119px;
+}
+.pcie{
+	left: -80px;
+	position: relative;
+	width: 33%;
+	top: -40px;
+	display: inline;
+	-moz-box-shadow: 10px 10px 5px 0px #0081D5;
+	-webkit-box-shadow: 10px 10px 5px 0px #0081D5;
+	-o-box-shadow: 10px 10px 5px 0px #0081D5;
+	box-shadow: 10px 10px 5px 0px #0081D5;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#0081D5, Direction=134, Strength=5);
+}
+.tlcm{
+	width: 5%;
+position: relative;
+top: -75px;
+display: inline;
+float: left;
+left: -115px;
+}
+.gen{
+	width: 3%;
+position: relative;
+top: 13px;
+display: inline;
+float: left;
+left: -170px;
+}
+.caces{
+	width: 17%;
+	left: 108px;
+	position: relative;
+	top: -85px;
+	display: inline;
+	-moz-box-shadow: 10px 10px 5px 0px #96999A;
+	-webkit-box-shadow: 10px 10px 5px 0px #96999A;
+	-o-box-shadow: 10px 10px 5px 0px #96999A;
+	box-shadow: 10px 10px 5px 0px #96999A;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#0081D5, Direction=134, Strength=5);
+	float: right;
+	}
+.operateur{
+	width: 250px;
+position: absolute;
+font-family: "GrandHotel-Regular";
+font-size: 20px;
+top: 727px;
+transform: rotate(5deg);
+left: 41px;
+text-align: center;
+}
+.plongeur{
+	width: 250px;
+position: absolute;
+font-family: "GrandHotel-Regular";
+font-size: 20px;
+text-align: center;
+top: 711px;
+left: 394px;
+transform: rotate(5deg);
+}
+.cariste{
+	width: 250px;
+font-family: "GrandHotel-Regular";
+font-size: 20px;
+top: 741px;
+position: absolute;
+left: 735px;
+transform: rotate(9deg);
+text-align: center;
+}
+.prepa{
+	width: 250px;
+font-family: "GrandHotel-Regular";
+font-size: 20px;
+transform: rotate(2deg);
+text-align: center;
+position: absolute;
+left: 1066px;
+top: 740px;
+}
+.app{
+	width: 250px;
+font-family: "GrandHotel-Regular";
+font-size: 20px;
+transform: rotate(-6.5deg);
+text-align: center;
+position: absolute;
+left: 940px;
+top: 1103px;
+}
+.kara{
+	width: 250px;
+font-family: "GrandHotel-Regular";
+font-size: 20px;
+transform: rotate(4.5deg);
+text-align: center;
+position: absolute;
+left: 544px;
+top: 1212px;
+}
+.savoir{
+	width: 250px;
+font-family: "GrandHotel-Regular";
+font-size: 20px;
+text-align: center;
+position: absolute;
+top: 1098px;
+transform: rotate(-7deg);
+left: 140px;
+color: #000069;
+line-height: 1.55;
+}
+.deuxMilleSeize{
+	font-family: "The Constellation of Heracles";
+position: relative;
+top: -90px;
+left: 90px;
+font-size: 40px;
+transform: rotate(35deg);
+width: 69px;
+height: 0px;
+}
+.designtech{
+	font-family: "GrandHotel-Regular";
+position: relative;
+top: -235px;
+z-index: 1;
+left: 29px;
+width: 149px;
+text-align: center;
+font-size: 23px;
+line-height: 1.1;
+display: inline-block;
+float: left;
+}
+.deuxMilleDouze{
+	font-family: "The Constellation of Heracles";
+position: relative;
+font-size: 40px;
+transform: rotate(35deg);
+width: 69px;
+top: -50px;
+left: 645px;
+height: 0px;
+}
+.PCIE{
+	font-family: "GrandHotel-Regular";
+position: relative;
+z-index: 1;
+width: 131px;
+font-size: 33px;
+left: 195px;
+top: -235px;
+text-align: center;
+display: inline;
+}
+.deuxMilleHuit{
+	font-family: "The Constellation of Heracles";
+position: relative;
+font-size: 40px;
+transform: rotate(35deg);
+width: 69px;
+left: 1160px;
+top: -10px;
+height: 0px;
+}
+.CaCeS{
+z-index: 1;
+font-family: "GrandHotel-Regular";
+position: relative;
+width: 131px;
+font-size: 33px;
+text-align: center;
+left: -83px;
+top: -240px;
+display: inline-block;
+float: right;
+}
+.lettre{
+	margin-left: 260px;
+	background-color: #A7D450;
+	font-family: Grand Hotel;
+	font-size: 25px;
+	border-radius: 20px;
+}
+.lien_pcie{
+	
+}
+#en_vert{
+color: #AAD651;
+}

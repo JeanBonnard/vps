@@ -1,0 +1,210 @@
+h1{
+	text-align: center;
+	font-family: Sans-Serif;
+	text-decoration: underline;
+	color: #FF4500;
+}
+.boutoncara{
+	
+	background-color: #FF4500;
+	color: black;
+	font-weight: bold;
+	border: #FF4500;
+	border-radius: 25px;
+	height: 26px;
+	margin-left: 237px;
+}
+.inconv{
+	
+	height: 14px;
+	margin-top: 10px;
+}
+h1:hover{
+	color: blue;
+}
+.logi{
+	
+	background-color: #FF4500;
+	border-radius: 20px;
+	width: 890px;
+	margin: auto;
+}
+.défini{
+	
+	width: 1000px;
+	margin: auto;
+	z-index: 1;
+	position: relative;
+}
+.fondef{
+	
+	position: absolute;
+	z-index: 0;
+	height: 60px;
+	width: 1020px;
+	left: 168px;
+	background-color: #FDC22F;
+	opacity: 0.59;
+	border-radius: 10px;
+}
+.definition{
+	
+	border-radius: 10px;
+	width: 1010px;
+	margin: auto;
+	/*! z-index: 1; */
+}
+.title{
+	
+	background-color: #FF4500;
+	height: 44px;
+	z-index: 0;
+	position: relative;
+	width: 574px;
+	left: 377px;
+	/*!  */
+	opacity: 0.6;
+	border-radius: 20px;
+	top: -6px;
+}
+.texttitre{
+	
+	position: absolute;
+	z-index: 1;
+	left: 314px;
+}
+.titre{
+	
+	opacity: 1;
+	border-radius: 21px;
+	width: 700px;
+	margin: auto;
+	z-index: 2;
+	font-size: 27px;
+}
+body{
+	margin:0;
+	padding:0;
+	background-image:url('http://img0.mxstatic.com/wallpapers/dcfab166e6ea5e33944c4db24b9d316d_large.jpeg');
+	background-size:119%;
+	background-position-x: -134px;
+}
+.ubu{
+	position: absolute;
+
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+}
+h2{
+	text-decoration: underline;
+	text-align: center;
+}
+p{
+	font-weight: bold;
+	text-align: center;
+}
+.av {
+	text-decoration: underline;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	opacity: 0.7;
+	width: 480px;
+	background-color: black;
+	border-radius: 60px;
+	height: 205px;
+}
+.inc{
+	text-decoration: underline;
+	font-size: 17px;
+	font-weight: bold;
+	opacity: 0.7;
+	width: 490px;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	margin-top: -202.5px;
+	color: #0D0021;
+	background-color: white;
+	border-radius: 60px;
+	height: 197px;
+}
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+.erreur{
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+	height:70px;
+	width: 70px;
+}
+.Prob{
+	color:white;
+}
+.probleme{
+	color: silver;
+}
+caption{
+	text-decoration: underline;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Georgia;
+}
+.logiciel{
+	color: silver;
+}
+.thun{
+	height: 70px;
+	width: 70px;
+	margin-left: 380px;
+}
+.fire{
+	height: 70px;
+	width: 70px;
+}
+.libr{
+	height: 70px;
+	width: 70px;
+}
+.gimp{
+	height: 70px;
+	width: 70px;
+}
+.chro{
+	height: 70px;
+	width: 70px;
+}
+.teleg{
+	height: 70px;
+	width: 70px;
+}
+.drop{
+	height: 70px;
+	width: 70px;
+}
+.vlc{
+	height: 70px;
+	width: 70px;
+}
+#en_bleu{
+	color:blue;
+}
+#en_vert{
+	color:green;
+}
+#en_rouge{
+	color:red;
+}
+#en_gris{
+	color:#696969
+}
+#en_orange{
+	color:#FF4500;
+}
+#en_blanc{
+	color:white;
+}

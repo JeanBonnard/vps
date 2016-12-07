@@ -1,0 +1,73 @@
+@font-face {
+  font-family:"Amarillo";
+  src:url('images/Amarillo.ttf');
+}
+.ligne{
+  
+  border: solid;
+  width: 960px;
+  left: 80px;
+  position: relative;
+  color: white;
+}
+.insta{
+  
+  text-decoration: underline;
+  color: white;
+}
+.pre{
+  
+  text-decoration: underline;
+  color: white;
+}
+.prerequis{
+  
+  font-size: 20px;
+  font-family: "Amarillo";
+  text-align: center;
+  line-height: 41px;
+  border: solid;
+  border-style: double;
+  width: 600px;
+  border-radius: 17px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 32px;
+  height: 378px;
+}
+.tutodescri{
+  
+  font-size: 20px;
+  font-family: "Amarillo";
+  line-height: 41px;
+  text-align: center;
+  border: solid;
+  border-style: double;
+  width: 1130px;
+  margin: auto;
+  border-radius: 20px;
+}
+.tv{
+  
+  margin-top: -463px;
+  display: inline-block;
+  margin-left: 262px;
+  width: 813px;
+  height: 532px;
+}
+body{
+  background-color: darkmagenta
+}
+.titre{
+  font-family: "Amarillo";
+  text-align: center;
+}
+.vid{
+  width: 797px;
+  height: auto;
+  display: block;
+  margin-left: 270px;
+  border-radius: 0;
+  position: relative;
+}

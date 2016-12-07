@@ -1,0 +1,167 @@
+@font-face {
+						font-family:"GrandHotel-Regular";
+						src:url('images/GrandHotel-Regular/GrandHotel-Regular.ttf')
+					}
+.lienpres{
+	
+	display: block;
+	width: 96px;
+}
+.lientuto{
+	
+	display: inline-block;
+	width: 81px;
+	float: right;
+	margin-top: -20px;
+}
+.boutonpres{
+	
+	background-color: #FF4500;
+	color: black;
+	border: #FF4500;
+	font-weight: bold;
+	border-radius: 21px;
+}
+.boutontuto{
+	float: right;
+	
+	background-color: blueviolet;
+	color: black;
+	border: blueviolet;
+	border-radius: 21px;
+	font-weight: bold;
+}
+h1{
+	text-align: center;
+	font-family: "GrandHotel-Regular";
+	text-decoration: underline;
+	color:#FFB821;
+	font-size: 60px;
+	width: 312px;
+	margin: auto;
+}
+.lien{
+
+}
+h1:hover{
+	color: blue;
+}
+body{
+	margin: 10px;
+	padding: 0;
+	background-image: url('http://p1.pichost.me/i/75/2000008.png') ;
+	background-size: cover;
+}
+.Unity{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 10px;
+	height:110px ;
+	width: 110px;
+}
+.bureau{
+	border: solid;
+	/*!  */
+	width: 265px;
+	border-radius: 33px;
+}
+.Xfce{
+	height: 80px;
+	width: 90px;
+}
+.Lxde{
+	height: 75px;
+	width: 75px;
+}
+.divedub{
+
+	border: solid;
+	border-radius: 36px;
+}
+.Edub{
+	height:180px;
+	width: 300px;
+	margin-left: 250px;
+	border-radius: 50px;
+}
+.Edub2{
+	position: absolute;
+	height:240px ;
+	width: 390px;
+	margin-left:275px ;
+	margin-top: -15px;
+}
+.divstud{
+
+	border: solid;
+	border-radius: 36px;
+}
+.Stud{
+	height:180px;
+	width: 300px;
+	margin-left: 250px;
+	border-radius: 50px;
+}
+.Stud2{
+	position: absolute;
+	height:170px ;
+	width: 350px;
+	margin-left:300px ;
+}
+.divmyth{
+
+	border: solid;
+	border-radius: 36px;
+}
+.Myth{
+	height: 180px;
+	width: 300px;
+	margin-left:250px ;
+	border-radius: 50px;
+}
+.Myth2{
+	position: relative;
+	height:102px;
+	width: 348px;
+	margin-left:302px;
+	/*!  */
+	top: -44px;
+}
+h2{
+	text-decoration: underline;
+	text-align: center;
+}
+h3{
+	text-decoration: underline;
+}
+p{
+	font-weight: bold;
+}
+.Logo{
+	height: 70px;
+	width: 70px;
+	margin-left: 10px;
+}
+.Sources{
+	font-family: "GrandHotel-Regular";
+	color :white;
+	text-decoration: underline;
+}
+#en_bleu{
+	color:blue;
+}
+#en_vert{
+	color:green;
+}
+#en_rouge{
+	color:red;
+}
+#en_gris{
+	color:#696969
+}
+#en_orange{
+	color:#FF4500;
+}
+#en_blanc{
+	color: #FFFFFF;
+}

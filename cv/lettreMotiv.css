@@ -1,0 +1,56 @@
+@font-face {
+font-family:"Always In My Heart";
+src:url('images/Always In My Heart.ttf');
+}
+body{
+  background-size: 1200px;
+  background-repeat: repeat-y;
+  background-position-x: center;
+}
+.langage{
+  
+  background-color: #FEFE14;
+  opacity: 0.9;
+}
+.titre{
+text-align:center;
+font-family:"Always In My Heart";
+font-size:55px;
+margin-top: 12px;
+text-decoration: underline;
+color:black;
+background-color: #FEFE14;
+display: inline-block;
+margin-left: 297px;
+opacity: 0.8;
+width: 738px;
+}
+.bouton{
+display: block;
+margin: auto;
+background-color: #A7D450;
+width:10%;
+border-radius: 20px;
+  font-family: Grand Hotel;
+  font-size: 21px;
+    color:#000069;
+}
+.present{
+font-family:"Always In My Heart";
+font-size: 36px;
+color:   black;
+line-height: 50.5px;
+margin: 0px;
+}
+.presentation{
+  width: 975px;
+  margin-left: 181px;
+}
+.souligne{
+  text-decoration: underline red;
+  font-size: 44px;
+  
+    
+  background-color: #FEFE14;
+  opacity: 0.9;
+}
